@@ -17,12 +17,16 @@ This dashboard provides a 360° view of Blinkit's sales data, enabling stakehold
 📋 Outlet Type Matrix — Detailed table comparing Total Sales, No. of Items, Avg Sales, Avg Rating, and Item Visibility across Grocery Store, Supermarket Type 1/2/3
 🎛️ Dynamic Filter Panel — Slicers for Outlet Location Type, Outlet Size, and Item Type for real-time drill-down
 🔁 Multi-View Toggle — Switch between No. of Items, Avg Rating, Total Sales, and Avg Sales views using button-based navigation
+
+
 📊 Dashboard KPIs
 Metric	Value
 Total Sales	$1.20M
 Average Sales	$141
 Number of Items	8,523
 Average Rating	3.9
+
+
 🧩 Dashboard Sections
 Section	Description
 Outlet Establishment	Line chart showing sales trend across establishment years (2012–2022)
@@ -32,6 +36,8 @@ Item Type	Bar chart ranking product categories by sales performance
 Outlet Size	Donut chart showing sales distribution across Small, Medium, and High outlet sizes
 Outlet Location	Donut chart breaking down sales by Tier 1, Tier 2, and Tier 3 locations
 Outlet Type Table	Matrix view with Total Sales, No. of Items, Avg Sales, Avg Rating, and Item Visibility per outlet type
+
+
 🛠️ Tech Stack
 Category	Tools / Technologies
 Visualization & Reporting	Power BI Desktop
@@ -40,6 +46,8 @@ Data Transformation	Power Query (M Language)
 Calculations & Measures	DAX (Data Analysis Expressions)
 Data Source	CSV / Excel dataset (Retail sales dataset)
 UI/UX	Custom theme, buttons, bookmarks, slicers, and interactive tooltips
+
+
 ⚙️ Features Implemented
 ✅ Custom KPI cards with icons and conditional color indicators
 ✅ Interactive slicers for real-time filtering
