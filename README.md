@@ -1,57 +1,110 @@
-# -Blinkit-Sales-Analysis-Dashboard-Power-BI
-An interactive Power BI dashboard analyzing sales performance across Blinkit outlets — built to uncover trends in outlet establishment, product fat content, item categories, outlet size/location, and overall sales performance.
+<div align="center">
+
+# 🛒 Blinkit Sales Analysis Dashboard
+
+### 📊 Power BI | Retail Analytics | Data Visualization
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
+[![Power Query](https://img.shields.io/badge/Power%20Query-2C9A3F?style=for-the-badge)](https://learn.microsoft.com/en-us/power-query/)
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
+
+**An end-to-end retail sales dashboard analyzing 8,500+ items across multiple outlet types, tiers, and categories.**
+
+</div>
+
+---
+
+![Dashboard Preview](dashboard-preview.png)
+
+---
+
+## 📈 Key Performance Indicators
+
+<div align="center">
+
+| 💰 Total Sales | 📉 Avg Sales | 📦 No. of Items | ⭐ Avg Rating |
+|:---:|:---:|:---:|:---:|
+| **`$1.20M`** | **`$141`** | **`8,523`** | **`3.9 / 5`** |
+
+</div>
+
+---
+
+## ✨ Highlights
+
+- 🚀 **`$1.20M`** in total sales generated across **`8,523`** unique items
+- 📆 Sales trend tracked from **`2012`** to **`2022`**, peaking at **`$205K`** in **2018**
+- 🏆 **Tier 3** outlets lead location-wise performance with **`$472.13K`** in sales *(highest among all tiers)*
+- 🥈 **Tier 2** outlets follow closely at **`$393.15K`**, while **Tier 1** trails at **`$336.40K`**
+- 🏬 **Supermarket Type 1** dominates by volume — **`5,577` items**, **`$0.79M`** total sales, **`338.65` avg visibility**
+- ⚖️ Outlet size split ranges between **`$248.99K`** and **`$507.90K`**, showing balanced distribution across Small, Medium & High outlets
+- 🥗 **Fat Content Analysis**: Average sales nearly split — **`$141`** (Regular) vs **`$142`** (Low Fat)
+- 📊 **5 Outlet Types Compared**: Grocery Store, Supermarket Type 1, 2, 3 — all benchmarked on Sales, Items, Rating & Visibility
+
+---
+
+## 🧮 Outlet Type Performance Matrix
+
+| Outlet Type | Total Sales | No. of Items | Avg Sales | Avg Rating | Item Visibility |
+|---|:---:|:---:|:---:|:---:|:---:|
+| Supermarket Type1 | **`$0.79M`** | **`5,577`** | **`$141`** | **`4`** | `338.65` |
+| Grocery Store | **`$0.15M`** | **`1,083`** | **`$140`** | **`4`** | `113.57` |
+| Supermarket Type2 | **`$0.13M`** | **`928`** | **`$142`** | **`4`** | `56.62` |
+| Supermarket Type3 | **`$0.13M`** | **`935`** | **`$140`** | **`4`** | `54.80` |
+| 🔷 **Total** | **`$1.20M`** | **`8,523`** | **`$141`** | **`4`** | `563.64` |
+
+---
+
+## 🗺️ Outlet Location Breakdown (Tier-wise)
+
+<div align="center">
+
+| Tier | Sales |
+|:---:|:---:|
+| 🥇 Tier 3 | **`$472.13K`** |
+| 🥈 Tier 2 | **`$393.15K`** |
+| 🥉 Tier 1 | **`$336.40K`** |
+
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tools Used |
+|---|---|
+| 🎨 **Visualization & Reporting** | Power BI Desktop |
+| 🔗 **Data Modeling** | Star Schema Data Model |
+| 🔄 **Data Transformation** | Power Query (M Language) |
+| 🧮 **Calculations** | DAX (Data Analysis Expressions) |
+| 🗃️ **Data Source** | CSV / Excel Retail Dataset |
+| 🖱️ **Interactivity** | Slicers, Bookmarks, Buttons, Tooltips |
+
+---
+
+## 🧩 Dashboard Components
+
+| Visual | Insight Delivered |
+|---|---|
+| 📈 Outlet Establishment Trend | Sales growth by year (2012–2022) |
+| 🍩 Fat Content Donut | Regular vs. Low Fat item sales split |
+| 📊 Fat by Outlet | Fat-type sales comparison across Tier 1/2/3 |
+| 📋 Item Type Bar Chart | Sales ranked across 15+ product categories |
+| 🍩 Outlet Size Donut | Sales by Small / Medium / High outlets |
+| 🍩 Outlet Location Donut | Sales by Tier 1 / Tier 2 / Tier 3 |
+| 🧮 Outlet Type Matrix | Full KPI breakdown by outlet format |
+| 🎛️ Filter Panel | Outlet Location, Outlet Size, Item Type slicers |
+
+---
+
+## ⚙️ Features Implemented
+
+- ✅ Custom KPI cards with dynamic icons & color-coded indicators
+- ✅ Bookmark-driven navigation across 4 views (Items / Rating / Sales / Avg Sales)
+- ✅ Real-time cross-filtering slicer panel
+- ✅ Brand-consistent yellow-green Blinkit theme
+- ✅ Drill-down enabled visuals for granular exploration
+- ✅ Sortable, interactive matrix table
 
 
-
-
-📌 Overview
-
-This dashboard provides a 360° view of Blinkit's sales data, enabling stakeholders to quickly analyze KPIs, outlet performance, and product-level trends through an intuitive, filter-driven interface. It combines KPI cards, trend lines, donut charts, bar charts, and a detailed outlet-type matrix into a single, cohesive report page.
-
-🎯 Key Highlights
-📊 KPI Summary Cards — Total Sales, Average Sales, Number of Items, and Average Rating surfaced at a glance
-📈 Outlet Establishment Trend — Sales trajectory tracked from 2012 to 2022, highlighting a peak in 2018 (~$205K)
-🍩 Fat Content Breakdown — Regular vs. Low Fat item distribution via donut visualization
-🏬 Outlet Size & Location Analysis — Sales split across Small, Medium, and High outlet sizes, and Tier 1/2/3 locations
-📦 Item Type Analysis — Sales performance across categories like Household, Dairy, Snack Foods, Breakfast, Seafood, and more
-📋 Outlet Type Matrix — Detailed table comparing Total Sales, No. of Items, Avg Sales, Avg Rating, and Item Visibility across Grocery Store, Supermarket Type 1/2/3
-🎛️ Dynamic Filter Panel — Slicers for Outlet Location Type, Outlet Size, and Item Type for real-time drill-down
-🔁 Multi-View Toggle — Switch between No. of Items, Avg Rating, Total Sales, and Avg Sales views using button-based navigation
-
-
-📊 Dashboard KPIs
-Metric	Value
-Total Sales	$1.20M
-Average Sales	$141
-Number of Items	8,523
-Average Rating	3.9
-
-
-🧩 Dashboard Sections
-Section	Description
-Outlet Establishment	Line chart showing sales trend across establishment years (2012–2022)
-Fat Content	Donut chart comparing Regular vs. Low Fat items by average sales
-Fat by Outlet	Horizontal bar chart of fat content sales across Tier 1, 2, and 3 outlets
-Item Type	Bar chart ranking product categories by sales performance
-Outlet Size	Donut chart showing sales distribution across Small, Medium, and High outlet sizes
-Outlet Location	Donut chart breaking down sales by Tier 1, Tier 2, and Tier 3 locations
-Outlet Type Table	Matrix view with Total Sales, No. of Items, Avg Sales, Avg Rating, and Item Visibility per outlet type
-
-
-🛠️ Tech Stack
-Category	Tools / Technologies
-Visualization & Reporting	Power BI Desktop
-Data Modeling	Power BI Data Model (Star Schema)
-Data Transformation	Power Query (M Language)
-Calculations & Measures	DAX (Data Analysis Expressions)
-Data Source	CSV / Excel dataset (Retail sales dataset)
-UI/UX	Custom theme, buttons, bookmarks, slicers, and interactive tooltips
-
-
-⚙️ Features Implemented
-✅ Custom KPI cards with icons and conditional color indicators
-✅ Interactive slicers for real-time filtering
-✅ Bookmark-based navigation between multiple chart views (No. of Items / Avg Rating / Total Sales / Avg Sales)
-✅ Consistent yellow-green brand theme matching Blinkit's identity
-✅ Drill-down enabled visuals for granular analysis
-✅ Responsive matrix table with sortable columns
